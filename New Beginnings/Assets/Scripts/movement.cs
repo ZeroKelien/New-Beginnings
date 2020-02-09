@@ -24,6 +24,7 @@ public class movement : MonoBehaviour
 		}
 		if (Input.GetKey(KeyCode.DownArrow)){
 			transform.position += Vector3.back* speed * Time.deltaTime;
-		}
+			
+		}		
 	}
 }
