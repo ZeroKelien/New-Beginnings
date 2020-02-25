@@ -14704,6 +14704,20 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1177672668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177672661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6261a356c5a2104f9be4d6c6e1463f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  collectSound: {fileID: 0}
 --- !u!1001 &1181496562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27995,6 +28009,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Direction
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2288868134413913747, guid: 25beafbc8d9f3b34d80f6751cffe51f6,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2288868134413913758, guid: 25beafbc8d9f3b34d80f6751cffe51f6,
         type: 3}
